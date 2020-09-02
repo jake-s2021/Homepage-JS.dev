@@ -1,0 +1,104 @@
+/*This stylesheet holds the Media Queries for common monitor resolutions.
+Styles designed around this sheet should be
+designed around a base text size of 10px
+using em units as a multiplier*/
+
+
+/*html{
+    font-size: 10px;
+}*/
+
+/*responsive queries*/
+
+@media screen and (min-width: 960px){
+    html{
+        font-size: 7.5px;
+    }
+}
+
+
+/*1280x720, 1280x768*/
+@media screen and (min-width: 1280px){
+    html{
+        font-size: 7.5px;
+    }
+
+}
+
+
+
+
+/*1920x1080*/
+@media screen and (min-width: 1880px){
+    html{
+        font-size: 10px;
+    }
+}
+
+
+
+
+/*2560x1440, 2560x1080, 3000x2000, 2256x1504*/
+@media screen and (min-width: 2180px){
+    
+    html{
+        font-size: 10px;
+    }
+
+    @media (min-height: 1081px){
+
+        html{
+            font-size: 13.33px;/*scales to roughly 1440px*/
+        }
+    }
+    @media screen and (min-height: 1441px){/*Surface Laptop*/
+        html{
+            font-size: 15px;/*scales to ~1504px*/
+        }
+    }
+    @media screen and (min-height: 1700px){/*Razer Blade 2017*/
+        html{
+            font-size: 20px;/*scales to ~2000px*/
+        }
+    }
+
+
+}
+
+
+
+/*3440x1440*/
+@media screen and (min-width: 3320px){
+    html{
+        font-size: 13.33px;/*scales to roughly 1440px*/
+    }
+}
+
+
+
+/*3840x2160, 3840x1080*/
+@media screen and (min-width: 3700px){
+    html{
+        font-size: 10px;
+    }
+
+    @media screen and (min-height: 1081px){
+        html{
+            font-size: 20px;/*scales to 2160px*/
+        }
+    }
+}
+
+
+/*5120x1440, 5120x2160*/
+@media screen and (min-width: 5060px){
+    html{
+        font-size: 13.33px;/*scales to roughly 1440px*/
+    }
+
+    @media screen and (min-height: 1441px){
+        html{
+            font-size: 20px;/*scales to 2160px*/
+        }
+    }
+}
