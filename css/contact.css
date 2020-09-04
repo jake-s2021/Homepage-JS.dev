@@ -1,3 +1,6 @@
+html{
+    font-size: 1.067235859124866595517609391676vh;
+}
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +18,12 @@ body{
     flex-direction: row;
     z-index: 1;
   
+}
+.fas{
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    padding: 1px 3px;
 }
 #links-group{
     display: flex;
@@ -89,7 +98,8 @@ body{
     visibility: hidden;
     position: fixed;   
     top: 5em;
-    right: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
     height: 20em;
     width: 90em;
     background-color: rgba(1, 46, 46, 1);/*rgb(2, 95, 95);*/

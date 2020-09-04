@@ -10,9 +10,9 @@ using em units as a multiplier*/
 
 /*responsive queries*/
 
-@media screen and (min-width: 960px){
+@media screen and (min-width: 900px){
     html{
-        font-size: 7.5px;
+        font-size: 8px;
     }
 }
 
