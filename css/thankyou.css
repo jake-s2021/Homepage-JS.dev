@@ -23,6 +23,12 @@ body{
     z-index: 1;
   
 }
+.fas{
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    padding: 1px 3px;
+}
 #links-group{
     display: flex;
     flex-direction: row;
@@ -59,6 +65,7 @@ body{
 #home-head{/*48.89px width*/
     font-size: 2em;
     padding: 0.75em 3.1515em;
+    padding-right: 4.567em;
     background-color: rgb(1, 46, 46);
     color: white;
     text-decoration: none;
@@ -69,6 +76,7 @@ body{
 #contact-head{/*62.22*/
     font-size: 2em;
     padding: 0.75em 2.843em;
+    padding-right: 4.1345em;
     background-color: rgb(1, 46, 46);
     color: white;
     text-decoration: none;
@@ -86,6 +94,7 @@ body{
 #project-head{/*86.16*/
     font-size: 2em;
     padding: 0.75em 2.63275em;
+    padding-right: 4.17175em;
     background-color: rgb(1, 46, 46);
     color: white;
     text-decoration: none;
